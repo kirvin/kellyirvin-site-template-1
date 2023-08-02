@@ -9,11 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@aws-amplify/cli": "^12.2.3",
     "@headlessui/react": "^1.7.14",
     "@types/node": "^20.2.5",
     "@types/react": "^18.2.7",
     "@types/react-dom": "^18.2.4",
     "aos": "^3.0.0-beta.6",
+    "aws-amplify": "^5.3.4",
+    "aws-crt": "^1.15.22",
+    "encoding": "^0.1.13",
     "next": "^13.4.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
