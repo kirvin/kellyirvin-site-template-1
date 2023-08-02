@@ -1,9 +1,12 @@
 import './css/style.css'
 
 import { Inter, Architects_Daughter } from 'next/font/google'
+import { Amplify } from 'aws-amplify'
 
 import Header from '@/components/ui/header'
 import Banner from '@/components/banner'
+
+Amplify.configure()
 
 const inter = Inter({
   subsets: ['latin'],

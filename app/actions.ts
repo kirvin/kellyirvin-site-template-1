@@ -1,8 +1,6 @@
 "use server"
 
-import { Amplify, API } from 'aws-amplify'
-import awsconfig from './aws-exports'
-Amplify.configure(awsconfig)
+import { API } from 'aws-amplify'
 
 export async function handleContactFormSubmit(formData:FormData) {
   const contactName = formData.get("contactName");

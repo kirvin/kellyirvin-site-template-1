@@ -10,6 +10,14 @@
       "StackName": "amplify-kellyirvinsite-dev-85157",
       "StackId": "arn:aws:cloudformation:us-east-1:528969958469:stack/amplify-kellyirvinsite-dev-85157/840c05c0-314c-11ee-a631-0aaaad7cc485",
       "AmplifyAppId": "dkp3cr5r6avtf"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "dkp3cr5r6avtf",
+          "type": "cicd"
+        }
+      }
     }
   }
 }
