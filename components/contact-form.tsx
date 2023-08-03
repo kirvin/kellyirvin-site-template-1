@@ -1,5 +1,3 @@
-import { handleContactFormSubmit } from "../app/actions";
-
 export default function ContactForm() {
   return (
     <section>
@@ -30,7 +28,7 @@ export default function ContactForm() {
             </div>
 
             {/* CTA form */}
-            <form className="w-full lg:w-1/2" action={handleContactFormSubmit}>
+            <form className="w-full lg:w-1/2">
               <div className="flex flex-col sm:flex-column justify-center max-w-xs mx-auto sm:max-w-md lg:max-w-none">
                 <input type="text" name="contactName" className="w-full appearance-none bg-purple-700 border border-purple-500 focus:border-purple-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-purple-400" placeholder="Your name...." aria-label="Your name" />
                 <input type="text" name="contactEmail" className="w-full appearance-none bg-purple-700 border border-purple-500 focus:border-purple-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-purple-400" placeholder="Your best email...." aria-label="Your best email..." />

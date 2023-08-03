@@ -1,5 +1,3 @@
-"use server"
-
 import { API } from 'aws-amplify'
 
 export async function handleContactFormSubmit(formData:FormData) {
