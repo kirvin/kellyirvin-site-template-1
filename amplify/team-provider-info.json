@@ -17,6 +17,12 @@
           "appId": "dkp3cr5r6avtf",
           "type": "cicd"
         }
+      },
+      "auth": {
+        "kellyirvinsiteb36a5ae4": {}
+      },
+      "api": {
+        "contactapi": {}
       }
     }
   }

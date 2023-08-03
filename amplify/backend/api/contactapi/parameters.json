@@ -1,0 +1,6 @@
+{
+  "AppSyncApiName": "contactapi",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": "authkellyirvinsiteb36a5ae4"
+}
